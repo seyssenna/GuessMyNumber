@@ -54,6 +54,7 @@ function verifyNbr(){
     // numbers.push(triedNbr);
     input.value = "";
     
+    // GERE LA COULEUR DE TEXTE DU COMPTEUR EN FONCTION DU NOMBRE DE TENTATIVES RESTANTE
     if (compteur > 8){
         compteurText.classList.add("green");
     } if (compteur < 8 && compteur > 4){
@@ -63,6 +64,7 @@ function verifyNbr(){
         compteurText.classList.remove("orange");
         compteurText.classList.add("red");
     };
+    
     // SI LE NOMBRE DE TENTATIVE EST SUPERIEUR A 1
     if (compteur > 1) {
 
