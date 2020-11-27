@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b9bceadb5d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>GuessMyNumber</title>
+</head>
+<body>
+    <h1>GuessMyNumber</h1>
+    <p>Pour découvrir le contenu caché, je vous propose de jouer a un court petit jeu</p>
+    <button class="play">Play</button>
+    <div class="game nonActive">
+        <label for="nbr">entrez un nombre entier entre 1 et 100</label>
+        <input name="nbr" value="" type="text">
+        <button class="try">try</button>
+    </div>
+    <p class="result"></p>
+    <p class="compteur"></p>
+    <div class="essaisTextContainer nonActive">
+        <p class="essaisText">vous avez tenté les numeros suivant : </p>
+        <p class="essais"></p>
+    </div>
+    <article  class="card-img nonActive">
+        <img src="images/obama.jpg" alt="">
+        <p><span>“pour rendre le monde meilleur, il faut plus de gens comme Gabriel”</span></p>
+        <p class="citation">BARAK OBAMA</p>
+    </article>
+    
+    <script src="app.js"></script>    
+</body>
+</html>
